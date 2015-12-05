@@ -1,0 +1,18 @@
+{
+  "name": "coalmarch-comp-to-code",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Shay Hall <hallshay@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ShayHall/Coalmarch-Comp-To-Code",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

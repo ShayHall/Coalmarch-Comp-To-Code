@@ -1,0 +1,95 @@
+body {
+  background-color: #0ebfdd;
+  font-family: 'Open Sans', sans-serif;
+  color: #f7fdfe; }
+  body .container {
+    width: 100%; }
+    body .container h1 {
+      text-align: center;
+      font-size: 3em;
+      font-weight: 300; }
+    body .container section div {
+      box-sizing: border-box;
+      display: block;
+      width: 50%;
+      margin: 3ex 25%;
+      padding-top: 2.5ex; }
+      body .container section div img {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: auto; }
+      body .container section div p {
+        text-align: center;
+        line-height: 0.5ex;
+        font-size: 1em; }
+        body .container section div p:first-of-type {
+          font-weight: 600; }
+        body .container section div p:last-of-type {
+          font-style: italic;
+          font-weight: 300; }
+    body .container footer div {
+      box-sizing: border-box;
+      display: block;
+      width: 50%;
+      margin-bottom: 4ex;
+      margin-left: 25%;
+      margin-right: 25%; }
+      body .container footer div button {
+        box-sizing: border-box;
+        width: 100%;
+        border-top: 2px solid #f7fdfe;
+        border-bottom: 2px solid #f7fdfe;
+        border-left: 1px solid #f7fdfe;
+        border-right: 1px solid #f7fdfe;
+        border-radius: 50px;
+        padding: 1.25ex 0;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #0ebfdd; }
+        body .container footer div button:hover {
+          background-color: #f7fdfe;
+          color: #0ebfdd; }
+      body .container footer div a[href] {
+        box-sizing: border-box;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #f7fdfe; }
+
+@media (min-width: 30em) {
+  body .container section div {
+    float: left;
+    width: 33.33333%;
+    margin-top: 3ex;
+    margin-bottom: 3ex;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 5ex; }
+  body .container footer div {
+    width: 25%;
+    margin-bottom: 8ex;
+    margin-left: 37.5%;
+    margin-right: 37.5%; }
+    body .container footer div button {
+      padding: 1.5ex 1.5ex;
+      font-size: 1em; } }
+
+@media (min-width: 60em) {
+  body .container {
+    width: 70%;
+    margin: 0 15%; }
+    body .container section div {
+      float: left;
+      width: 33.33333%;
+      margin-top: 3ex;
+      margin-bottom: 3ex;
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 5ex; }
+      body .container section div p {
+        font-size: 1.25em; }
+    body .container footer div {
+      width: 25%;
+      margin-bottom: 8ex;
+      margin-left: 37.5%;
+      margin-right: 37.5%; } }

@@ -30,10 +30,10 @@ body {
     body .container footer div {
       box-sizing: border-box;
       display: block;
-      width: 50%;
+      width: 33.33333%;
       margin-bottom: 4ex;
-      margin-left: 25%;
-      margin-right: 25%; }
+      margin-left: 33.33333%;
+      margin-right: 33.33333%; }
       body .container footer div button {
         box-sizing: border-box;
         width: 100%;
@@ -71,8 +71,8 @@ body {
     margin-left: 37.5%;
     margin-right: 37.5%; }
     body .container footer div button {
-      padding: 1.5ex 1.5ex;
-      font-size: 1em; } }
+      padding: 1.25ex 1.25ex;
+      font-size: 0.8em; } }
 
 @media (min-width: 60em) {
   body .container {
@@ -92,4 +92,7 @@ body {
       width: 25%;
       margin-bottom: 8ex;
       margin-left: 37.5%;
-      margin-right: 37.5%; } }
+      margin-right: 37.5%; }
+      body .container footer div button {
+        padding: 1.25ex 1.25ex;
+        font-size: 1em; } }
